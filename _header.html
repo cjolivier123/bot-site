@@ -1,0 +1,15 @@
+<header class="app-header">
+  <div class="app-container">
+    <div class="app-logo">
+      <img src="https://i.imgur.com/Vw1XsUv.png" class="app-logo-image">
+      <span class="app-title">Aruria</span>
+    </div>
+    <div class="hidden md:block">
+      {% include 'partials/_desktop_header.html' %}
+    </div>
+    <div class="md:hidden">
+      {% include 'partials/_mobile_header.html' %}
+    </div>
+  </div>
+  <script src="/static/js/header.js"></script>
+</header>
